@@ -1,0 +1,245 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*-----------------*/
+
+body {
+  font-family: "Potta One", system-ui;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	font-size: 80px;
+	margin-top: 50px;
+	font-weight: 900;
+	color: #3f48cc;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+	font-size: 36px;
+	margin-block: 20px;
+}
+
+p {
+	font-size: 24px;
+}
+
+#gif {
+	  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#content {
+	display: flex;
+	flex-direction: row-reverse;
+	max-width: 1700px;
+}
+
+#tokenomics {
+	display: flex;
+	flex-direction: column;
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+}
+
+#pics img {
+	margin-inline: 100px;
+	margin-block: 60px;
+}
+
+
+#about {
+	max-width: 900px;
+}
+
+#tokenomics {
+	margin-right: 90px;
+}
+
+#sticker1 {
+	position: relative;
+	top: -30rem;
+	left: 200px;
+}
+
+#sticker2 {
+	position: relative;
+	top: -26rem;
+	left: 400px;
+}
+
+#sticker3 {
+	position: relative;
+	top: -26rem;
+	left: 800px;
+}
+
+#sticker4 {
+	position: relative;
+	top: -2rem;
+	left: 60rem;
+}
+
+#sticker5 {
+	position: relative;
+	top: -1rem;
+	left: 26rem;
+}
+
+#sticker6 {
+	position: relative;
+	top: 2rem;
+	left: -8rem;
+}
+
+#sticker7 {
+	position: relative;
+	top: -60rem;
+	left: -40rem;
+}
+
+#sticker8 {
+	position: relative;
+	top: -60rem;
+	left: 40rem;
+}
+
+#social {
+	display: flex;
+	flex-direction: row;
+	margin-block: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	background: #3f48cc;
+	width: 64px;
+	height: 64px;
+	font-size: 30px;
+	border-radius: 100px;
+	margin-inline: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+
+	#sticker1 {
+display: none;
+}
+
+#sticker2 {
+display: none;
+}
+
+#sticker3 {
+	display: none;
+}
+
+#sticker4 {
+display: none;
+}
+
+#sticker5 {
+display: none;
+}
+
+#sticker6 {
+display: none;
+}
+
+#sticker7 {
+display: none;
+}
+
+#sticker8 {
+display: none;
+}
+
+h1, h2 {
+	font-size: 40px;
+	color: #3f48cc;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+p {
+	font-size: 16px;
+}
+
+img {
+	max-width: 350px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 350px;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+}
+
+}
